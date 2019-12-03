@@ -6,6 +6,46 @@ body {
     background-color: lightgray;
 }
 
-h2, p, a {
+h2, p, .readme-wrapper {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: red;
+}
+
+span {
+    color: sienna;
+    font-weight: bold;
+}
+
+.boxes {
+    margin: 2em;
+    padding: 1em;
+    border: 5px solid lime;
+    border-radius: 2em;
+    width: 30em;
+}
+
+#box1 {
+    background-color: magenta;
+}
+
+#box2 {
+    background-color: magenta;
+}
+
+#box3 {
+    background-color: magenta;
+}
+
+#box4 {
+    background-color: magenta;
 }
